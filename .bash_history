@@ -25,3 +25,11 @@ ls
 git status
 git init
 git add .
+git add .
+git  add .
+git commit -m "init"
+git config --global user.name "huy-lv"
+git config --global user.email "huylv177@gmail.com"
+git remote add origin https://github.com/huy-lv/mattermost3.git
+git push -u origin master 
+git commit -m "init"

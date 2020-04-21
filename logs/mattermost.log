@@ -16,3 +16,5 @@
 {"level":"info","ts":1587470087.594374,"caller":"app/web_hub.go:75","msg":"Starting websocket hubs","number_of_hubs":16}
 {"level":"info","ts":1587470087.617746,"caller":"app/server.go:470","msg":"Starting Server..."}
 {"level":"info","ts":1587470087.6179943,"caller":"app/server.go:538","msg":"Server is listening on [::]:14197","address":"[::]:14197"}
+{"level":"error","ts":1587475598.548402,"caller":"api4/websocket.go:28","msg":"websocket connect err.","error":"websocket: the client is not using the websocket protocol: 'upgrade' token not found in 'Connection' header"}
+{"level":"error","ts":1587475598.5484564,"caller":"mlog/log.go:175","msg":"Failed to upgrade websocket connection","path":"/api/v4/websocket","request_id":"eiqnbroqjiy18gts33nd4pd88a","ip_addr":"173.252.95.41","user_id":"","method":"GET","err_where":"connect","http_code":500,"err_details":""}
