@@ -1,0 +1,18 @@
+{"level":"info","ts":1587470079.1505158,"caller":"utils/i18n.go:83","msg":"Loaded system translations","for locale":"en","from locale":"/app/i18n/en.json"}
+{"level":"info","ts":1587470079.1508653,"caller":"app/server_app_adapters.go:58","msg":"Server is initializing..."}
+{"level":"info","ts":1587470079.154281,"caller":"sqlstore/supplier.go:221","msg":"Pinging SQL","database":"master"}
+{"level":"error","ts":1587470080.0319571,"caller":"app/server_app_adapters.go:129","msg":"SiteURL must be set. Some features will operate incorrectly if the SiteURL is not set. See documentation for details: http://about.mattermost.com/default-site-url"}
+{"level":"info","ts":1587470080.0405374,"caller":"app/license.go:39","msg":"License key from https://mattermost.com required to unlock enterprise features."}
+{"level":"info","ts":1587470080.0932357,"caller":"mlog/log.go:167","msg":"Starting up plugins"}
+{"level":"info","ts":1587470080.0935512,"caller":"app/plugin.go:199","msg":"Syncing plugins from the file store"}
+{"level":"info","ts":1587470084.72786,"caller":"mlog/sugar.go:19","msg":"Ensuring Surveybot exists","plugin_id":"com.mattermost.nps"}
+{"level":"info","ts":1587470087.021684,"caller":"app/server.go:232","msg":"Current version is 5.21.0 (5.21.0/Fri Mar 13 12:16:12 UTC 2020/f51c4f18f007494c3858fd029bf76819ff12ff1e/5964e14603a47db6cda3600d93ee31bfa835d553)","current_version":"5.21.0","build_number":"5.21.0","build_date":"Fri Mar 13 12:16:12 UTC 2020","build_hash":"f51c4f18f007494c3858fd029bf76819ff12ff1e","build_hash_enterprise":"5964e14603a47db6cda3600d93ee31bfa835d553"}
+{"level":"info","ts":1587470087.0217383,"caller":"app/server.go:241","msg":"Enterprise Build","enterprise_build":true}
+{"level":"info","ts":1587470087.0217986,"caller":"app/server.go:247","msg":"Printing current working","directory":"/app"}
+{"level":"info","ts":1587470087.0218508,"caller":"app/server.go:248","msg":"Loaded config","source":"file:///app/config/config-heroku.json"}
+{"level":"info","ts":1587470087.4740644,"caller":"sqlstore/post_store.go:1354","msg":"Post.Message has size restrictions","max_characters":16383,"max_bytes":65535}
+{"level":"info","ts":1587470087.577852,"caller":"jobs/workers.go:68","msg":"Starting workers"}
+{"level":"info","ts":1587470087.5788023,"caller":"jobs/schedulers.go:74","msg":"Starting schedulers."}
+{"level":"info","ts":1587470087.594374,"caller":"app/web_hub.go:75","msg":"Starting websocket hubs","number_of_hubs":16}
+{"level":"info","ts":1587470087.617746,"caller":"app/server.go:470","msg":"Starting Server..."}
+{"level":"info","ts":1587470087.6179943,"caller":"app/server.go:538","msg":"Server is listening on [::]:14197","address":"[::]:14197"}
